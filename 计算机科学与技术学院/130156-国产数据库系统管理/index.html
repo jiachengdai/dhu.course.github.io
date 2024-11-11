@@ -1,0 +1,5126 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../130132-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86/">
+      
+      
+        <link rel="next" href="../130163-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.37">
+    
+    
+      
+        <title>130156-国产数据库系统管理 - 东华大学课程共享计划</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8c3ca2c6.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+    <link rel="stylesheet" href="../../assets/stylesheets/custom.00c04c01.min.css">
+  
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#130156-" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+     Follow <strong>@jiachengdai</strong> on
+    <a rel="me" href="https://space.bilibili.com/">
+      <span class="twemoji bilibili">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M488.6 104.1c16.7 18.1 24.4 39.7 23.3 65.7v202.4c-.4 26.4-9.2 48.1-26.5 65.1-17.2 17-39.1 25.9-65.5 26.7H92.02c-26.45-.8-48.21-9.8-65.28-27.2C9.682 419.4.767 396.5 0 368.2V169.8c.767-26 9.682-47.6 26.74-65.7C43.81 87.75 65.57 78.77 92.02 78h29.38L96.05 52.19c-5.75-5.73-8.63-13-8.63-21.79 0-8.8 2.88-16.06 8.63-21.797C101.8 2.868 109.1 0 117.9 0q13.2 0 21.9 8.603L213.1 78h88l74.5-69.397C381.7 2.868 389.2 0 398 0q13.2 0 21.9 8.603c5.7 5.737 8.6 12.997 8.6 21.797 0 8.79-2.9 16.06-8.6 21.79L394.6 78h29.3c26.4.77 48 9.75 64.7 26.1m-38.8 69.7c-.4-9.6-3.7-17.4-10.7-23.5-5.2-6.1-14-9.4-22.7-9.8H96.05c-9.59.4-17.45 3.7-23.58 9.8-6.14 6.1-9.4 13.9-9.78 23.5v194.4c0 9.2 3.26 17 9.78 23.5s14.38 9.8 23.58 9.8H416.4c9.2 0 17-3.3 23.3-9.8s9.7-14.3 10.1-23.5zm-264.3 42.7c6.3 6.3 9.7 14.1 10.1 23.2V273c-.4 9.2-3.7 16.9-9.8 23.2-6.2 6.3-14 9.5-23.6 9.5s-17.5-3.2-23.6-9.5-9.4-14-9.8-23.2v-33.3c.4-9.1 3.8-16.9 10.1-23.2s13.2-9.6 23.3-10c9.2.4 17 3.7 23.3 10m191.5 0c6.3 6.3 9.7 14.1 10.1 23.2V273c-.4 9.2-3.7 16.9-9.8 23.2s-14 9.5-23.6 9.5-17.4-3.2-23.6-9.5c-7-6.3-9.4-14-9.7-23.2v-33.3c.3-9.1 3.7-16.9 10-23.2s14.1-9.6 23.3-10c9.2.4 17 3.7 23.3 10"/></svg>
+      </span>
+      <strong>Bilibili</strong>
+    </a>
+    
+  
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="东华大学课程共享计划" class="md-header__button md-logo" aria-label="东华大学课程共享计划" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            东华大学课程共享计划
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              130156-国产数据库系统管理
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="东华大学课程共享计划" class="md-nav__button md-logo" aria-label="东华大学课程共享计划" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    东华大学课程共享计划
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    项目介绍
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    公共课
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            公共课
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    体育类公共课
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            体育类公共课
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%B9%92%E4%B9%93%E7%90%83/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    乒乓球
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BA%94%E4%BA%BA%E5%88%B6%EF%BC%88%E5%AE%A4%E5%86%85%EF%BC%89%E8%B6%B3%E7%90%83/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    五人制## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BA%A4%E8%B0%8A%E8%88%9E/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    交谊舞
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E8%88%9E%E8%B9%88/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    体育舞蹈
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BF%9D%E5%81%A5%E7%8F%AD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    保健班
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E5%81%A5%E8%BA%AB%E6%93%8D/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    健身操
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E5%81%A5%E8%BA%AB%E8%85%B0%E9%BC%93/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    健身腰鼓
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E5%9B%A2%E4%BD%93%E6%93%8D/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    团体操
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B8%B8%E6%B3%B3%E4%B8%8E%E6%B0%B4%E4%B8%8A%E6%95%91%E6%8A%A4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    大学生游## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E5%B0%84%E8%89%BA%E8%AF%BE/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    射艺课
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%89%8B%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    手球俱乐部
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%8B%93%E5%B1%95%E8%AE%AD%E7%BB%83/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    拓展训练
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%8E%92%E7%90%83/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    排球
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%94%80%E5%B2%A9/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    攀岩
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%A3%E6%89%93/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    散打
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%A3%92%E5%9E%92%E7%90%83/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    棒垒球
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%AD%A6%E6%9C%AF%E4%BF%B1%E4%B9%90%E9%83%A8/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    武术俱乐部
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%B0%94%E6%8E%92%E7%90%83/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    气排球
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%B0%B4%E4%B8%8A%E8%BF%90%E5%8A%A8%EF%BC%88%E6%A1%A8%E6%9D%BF%EF%BC%89/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    水上## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%B8%B8%E6%B3%B3%E4%BF%B1%E4%B9%90%E9%83%A8/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    游泳俱乐部
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%BB%91%E5%86%B0/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    滑冰
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%BF%80%E5%85%89%E5%B0%84%E5%87%BB/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    激光射击
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E7%91%9C%E4%BC%BD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    瑜伽
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E7%AF%AE%E7%90%83/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    篮球
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E7%BD%91%E7%90%83/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    网球
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E7%BE%BD%E6%AF%9B%E7%90%83/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    羽毛球
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%8A%B1%E6%A0%B7%E8%B7%B3%E7%BB%B3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    花样跳绳
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%A1%97%E8%88%9E/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    街舞
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%B6%B3%E7%90%83/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    足球
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%B7%86%E6%8B%B3%E9%81%93/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    跆拳道
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%BD%AF%E5%BC%8F%E6%9B%B2%E6%A3%8D%E7%90%83/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    软式曲棍球
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%BD%AF%E5%BC%8F%E9%A3%9E%E9%95%96/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    软式飞镖
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%BF%90%E5%8A%A8%E9%98%9F/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    运动队
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E4%BD%93%E8%82%B2%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/%E9%AB%98%E5%B0%94%E5%A4%AB/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    高尔夫
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    思政类公共课
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            思政类公共课
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%80%9D%E6%94%BF%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%80%9D%E6%94%BF%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/20013-%E6%80%9D%E6%83%B3%E9%81%93%E5%BE%B7%E4%BF%AE%E5%85%BB%E4%B8%8E%E6%B3%95%E5%BE%8B%E5%9F%BA%E7%A1%80/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    20013-思想道德修## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%80%9D%E6%94%BF%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/20062-%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    20062-马克思## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%80%9D%E6%94%BF%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/230053-%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E5%92%8C%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA%E4%BD%93%E7%B3%BB%E6%A6%82%E8%AE%BA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    230053-毛泽东思想和中国特色社会主义## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%80%9D%E6%94%BF%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/230063-%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3%E6%A6%82%E8%AE%BA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    230063-习近平新时代中国特色社会## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%80%9D%E6%94%BF%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/230071-%E4%B8%AD%E5%9B%BD%E8%BF%91%E7%8E%B0%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    230071-中国## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%80%9D%E6%94%BF%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/230151-%E6%80%9D%E6%83%B3%E9%81%93%E5%BE%B7%E4%B8%8E%E6%B3%95%E6%B2%BB/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    230151-思## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%80%9D%E6%94%BF%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/231101-%E5%85%9A%E5%8F%B2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    231## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%80%9D%E6%94%BF%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/231102-%E6%96%B0%E4%B8%AD%E5%9B%BD%E5%8F%B2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    23110## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%80%9D%E6%94%BF%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/231103-%E6%94%B9%E9%9D%A9%E5%BC%80%E6%94%BE%E5%8F%B2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    231103## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%80%9D%E6%94%BF%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/231104-%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E5%8F%91%E5%B1%95%E5%8F%B2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    231104-社## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%80%9D%E6%94%BF%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/24131-%E5%BD%A2%E5%8A%BF%E4%B8%8E%E6%94%BF%E7%AD%96%EF%BC%881%EF%BC%89/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    24131-形势## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%80%9D%E6%94%BF%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/24132-%E5%BD%A2%E5%8A%BF%E4%B8%8E%E6%94%BF%E7%AD%96%EF%BC%882%EF%BC%89/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    24132-形势## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%80%9D%E6%94%BF%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/24133-%E5%BD%A2%E5%8A%BF%E4%B8%8E%E6%94%BF%E7%AD%96%EF%BC%883%EF%BC%89/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    24133-形势## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%80%9D%E6%94%BF%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/24134-%E5%BD%A2%E5%8A%BF%E4%B8%8E%E6%94%BF%E7%AD%96%EF%BC%884%EF%BC%89/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    24134-形势## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    数学类公共课
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            数学类公共课
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/10011-%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6C%28%E4%B8%8A%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10011-高等## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/10012-%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6C%28%E4%B8%8B%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10012-高等## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/10491-%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E5%AE%9E%E9%AA%8C/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10491-## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/10751-%E4%B8%80%E5%85%83%E5%BE%AE%E7%A7%AF%E5%88%86A%28%E4%B8%8A%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10751-一元微## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/10752-%E4%B8%80%E5%85%83%E5%BE%AE%E7%A7%AF%E5%88%86A%28%E4%B8%8B%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10752-一元微## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/10755-%E4%B8%80%E5%85%83%E5%BE%AE%E7%A7%AF%E5%88%86A%28%E4%B8%8A%29-%E5%8D%93%E8%B6%8A%E7%8F%AD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10755-一元微积分A(## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/10756-%E4%B8%80%E5%85%83%E5%BE%AE%E7%A7%AF%E5%88%86A%28%E4%B8%8B%29-%E5%8D%93%E8%B6%8A%E7%8F%AD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10756-一元微积分A(## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/10761-%E5%87%A0%E4%BD%95%E4%B8%8E%E5%A4%9A%E5%85%83%E5%BE%AE%E7%A7%AF%E5%88%86A%28%E4%B8%8A%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10761-几何与多元微## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/10762-%E5%87%A0%E4%BD%95%E4%B8%8E%E5%A4%9A%E5%85%83%E5%BE%AE%E7%A7%AF%E5%88%86A%28%E4%B8%8B%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10762-几何与多元微## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/10763-%E5%87%A0%E4%BD%95%E4%B8%8E%E5%A4%9A%E5%85%83%E5%BE%AE%E7%A7%AF%E5%88%86A%28%E4%B8%8A%29-%E5%8D%93%E8%B6%8A%E7%8F%AD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10763-几何与多元微积分A(## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/10764-%E5%87%A0%E4%BD%95%E4%B8%8E%E5%A4%9A%E5%85%83%E5%BE%AE%E7%A7%AF%E5%88%86A%28%E4%B8%8B%29-%E5%8D%93%E8%B6%8A%E7%8F%AD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10764-几何与多元微积分A(## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/12091-%E5%B7%A5%E7%A8%8B%E6%95%B0%E5%AD%A6%281%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12091-工## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/12092-%E5%B7%A5%E7%A8%8B%E6%95%B0%E5%AD%A6%282%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12092-工## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/12111-%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%281%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12111-高## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/12121-%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%282%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12121-高## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/12131-%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%283%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12131-高## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/12141-%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%284%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12141-高## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/12311-%E4%B8%80%E5%85%83%E5%BE%AE%E7%A7%AF%E5%88%86B%28%E4%B8%8A%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12311-一元微## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/12312-%E4%B8%80%E5%85%83%E5%BE%AE%E7%A7%AF%E5%88%86B%28%E4%B8%8B%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12312-一元微## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/12313-%E5%87%A0%E4%BD%95%E4%B8%8E%E5%A4%9A%E5%85%83%E5%BE%AE%E7%A7%AF%E5%88%86B%EF%BC%88%E4%B8%8A%EF%BC%89/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12313-几何与多元微## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/12314-%E5%87%A0%E4%BD%95%E4%B8%8E%E5%A4%9A%E5%85%83%E5%BE%AE%E7%A7%AF%E5%88%86B%EF%BC%88%E4%B8%8B%EF%BC%89/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12314-几何与多元微## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/12361-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0A/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12361## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/12371-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0B/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12371## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/12391-%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1B/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12391-概率论## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/12392-%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%EF%BC%88%E7%89%A9%E7%90%86%E7%B1%BB%EF%BC%89/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12392-概率论与数理统## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/12401-%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1A%28%E7%90%86%E5%B7%A5%E7%B1%BB%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12401-概率论与数理统计## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/12411-%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1A%28%E7%BB%8F%E7%AE%A1%E7%B1%BB%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12411-概率论与数理统计## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%95%B0%E5%AD%A6%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/19841-%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E5%AE%9E%E9%AA%8C/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    19841-## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    文化素质类公共课
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            文化素质类公共课
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E6%96%87%E5%8C%96%E7%B4%A0%E8%B4%A8%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    物理类公共课
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            物理类公共课
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E7%89%A9%E7%90%86%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E7%89%A9%E7%90%86%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/10121-%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86A%281%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10121-大学## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E7%89%A9%E7%90%86%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/10122-%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86A%282%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10122-大学## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E7%89%A9%E7%90%86%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/10131-%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AE%9E%E9%AA%8C%281%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10131-大学物## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E7%89%A9%E7%90%86%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/10132-%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AE%9E%E9%AA%8C%282%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10132-大学物## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E7%89%A9%E7%90%86%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/10142-%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%9F%BA%E7%A1%80/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10142-## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E7%89%A9%E7%90%86%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/12151-%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86A%281%29-%E5%8D%93%E8%B6%8A%E7%8F%AD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12151-大学物理A(## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E7%89%A9%E7%90%86%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/12152-%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86A%282%29-%E5%8D%93%E8%B6%8A%E7%8F%AD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12152-大学物理A(## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E7%89%A9%E7%90%86%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/12161-%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AE%9E%E9%AA%8C%281%29-%E5%8D%93%E8%B6%8A%E7%8F%AD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12161-大学物理实验(## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E7%89%A9%E7%90%86%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/12162-%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AE%9E%E9%AA%8C%282%29-%E5%8D%93%E8%B6%8A%E7%8F%AD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12162-大学物理实验(## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    英语类公共课
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            英语类公共课
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%8B%B1%E8%AF%AD%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%8B%B1%E8%AF%AD%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/120610-%E7%BE%8E%E5%9B%BD%E6%96%87%E5%AD%A6/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12061## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%8B%B1%E8%AF%AD%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/120631-%E5%89%91%E6%A1%A5%E5%95%86%E5%8A%A1%E8%8B%B1%E8%AF%AD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    120631-## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%8B%B1%E8%AF%AD%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/120661-%E5%AD%A6%E6%9C%AF%E8%8B%B1%E8%AF%AD%E5%86%99%E4%BD%9C/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    120661-## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%8B%B1%E8%AF%AD%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/124341-%E8%8B%B1%E8%AF%AD1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1243## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%8B%B1%E8%AF%AD%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/124342-%E8%8B%B1%E8%AF%AD2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1243## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%8B%B1%E8%AF%AD%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/124343-%E8%8B%B1%E8%AF%AD3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1243## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%8B%B1%E8%AF%AD%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/125245-%E5%A4%A7%E5%AD%A6%E6%97%A5%E8%AF%AD%EF%BC%882%EF%BC%89/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    125245-大## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%8B%B1%E8%AF%AD%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/125246-%E5%A4%A7%E5%AD%A6%E6%97%A5%E8%AF%AD%EF%BC%883%EF%BC%89/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    125246-大## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%8B%B1%E8%AF%AD%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/125247-%E5%A4%A7%E5%AD%A6%E6%97%A5%E8%AF%AD%EF%BC%884%EF%BC%89/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    125247-大## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%8B%B1%E8%AF%AD%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/125248-%E5%A4%A7%E5%AD%A6%E6%97%A5%E8%AF%AD%281%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    125248-大## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%8B%B1%E8%AF%AD%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/125771-%E8%8B%B1%E8%AF%AD%E5%90%AC%E8%AF%B41/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    125771## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%8B%B1%E8%AF%AD%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/125781-%E8%8B%B1%E8%AF%AD%E5%90%AC%E8%AF%B42/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    125781## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%8B%B1%E8%AF%AD%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/125821-%E6%B1%89%E8%8B%B1%E4%BA%92%E8%AF%91/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12582## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%8B%B1%E8%AF%AD%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/125841-%E7%95%99%E5%AD%A6%E8%8B%B1%E8%AF%AD%28%E9%9B%85%E6%80%9D%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    125841-留学## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%8B%B1%E8%AF%AD%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/125901-%E5%AE%9E%E7%94%A8%E5%95%86%E5%8A%A1%E8%8B%B1%E8%AF%AD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    125901-## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%8B%B1%E8%AF%AD%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/126011-%E8%8B%B1%E8%AF%AD%E8%AF%8D%E6%B1%87/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12601## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%8B%B1%E8%AF%AD%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/126111-%E8%8B%B1%E8%AF%AD1%EF%BC%88%E6%96%B0%E7%9B%AE%E6%A0%87%EF%BC%89/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    126111-英语## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%8B%B1%E8%AF%AD%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/126112-%E8%8B%B1%E8%AF%AD2%EF%BC%88%E6%96%B0%E7%9B%AE%E6%A0%87%EF%BC%89/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    126112-英语## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%8B%B1%E8%AF%AD%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/126113-%E8%8B%B1%E8%AF%AD3%EF%BC%88%E6%96%B0%E7%9B%AE%E6%A0%87%EF%BC%89/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    126113-英语## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_7" id="__nav_2_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    计算机类公共课
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            计算机类公共课
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    计## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/130031-C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130031-C语言## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/150211-C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    150211-C## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/150401-%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E6%8A%80%E6%9C%AF%28%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BF%E9%97%AE%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    150401-计算机信息管理技术(## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/150527-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%BA%94%E7%94%A8/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    150527-人工智## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/150541-%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E6%8A%80%E6%9C%AF/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    150541-信息系统## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/150552-%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%BA%94%E7%94%A8/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    150552-数据科## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/150561-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E4%B8%8E%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    150561-计算机系## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/150571-%E5%A4%9A%E5%AA%92%E4%BD%93%E5%BA%94%E7%94%A8%E7%B3%BB%E7%BB%9F%E6%8A%80%E6%9C%AF/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    150571-多媒体## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/150581-Python%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    150581-Python## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/150611-%E8%AE%A1%E7%AE%97%E6%80%9D%E7%BB%B4%E4%B8%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%EF%BC%88Python%E8%AF%AD%E8%A8%80%EF%BC%89/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    150611-计算思维与人工智能（Pyt## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%AC%E5%85%B1%E8%AF%BE/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B1%BB%E5%85%AC%E5%85%B1%E8%AF%BE/150621-%E8%AE%A1%E7%AE%97%E6%80%9D%E7%BB%B4%E4%B8%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%EF%BC%88C%E8%AF%AD%E8%A8%80%EF%BC%89/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    150621-计算思维与人工智## 课程资料
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    计算机科学与技术学院
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            计算机科学与技术学院
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130006-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130006-机器学习
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130008-%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%AE%AD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130008-大数据工程实训
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130009-%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130009-大数据应用实践
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130012-%E5%A4%A7%E6%95%B0%E6%8D%AE%E4%B8%93%E4%B8%9A%E5%AE%9E%E4%B9%A0/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130012-大数据专业实习
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130013-%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%AE%AD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130013-计算机工程实训
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130014-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF%E4%B8%93%E4%B8%9A%E5%AE%9E%E4%B9%A0/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130014-计算机科学与技术专业实习
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130015-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130015-深度学习
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130017-%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130017-数据挖掘
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130019-%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130019-大数据技术
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130020-WEB%E6%8A%80%E6%9C%AF/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130020-WEB技术
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130022-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%AE%AD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130022-软件工程实训
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130023-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E4%B8%93%E4%B8%9A%E5%AE%9E%E4%B9%A0/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130023-软件工程专业实习
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130024-%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%AE%AD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130024-信息安全工程实训
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130025-%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E4%B8%93%E4%B8%9A%E5%AE%9E%E4%B9%A0/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130025-信息安全专业实习
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130026-%E8%AE%A1%E7%AE%97%E6%80%9D%E7%BB%B4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130026-计算思维
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130028-%E6%9C%80%E4%BC%98%E5%8C%96%E7%90%86%E8%AE%BA%E4%B8%8E%E6%96%B9%E6%B3%95/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130028-最优化理论与方法
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130029-%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130029-数据科学技术
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130030-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%BA%94%E7%94%A8/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130030-深度学习与应用
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130038-%E6%99%BA%E8%83%BD%E6%9C%BA%E5%99%A8%E4%BA%BA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130038-智能机器人
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130043-%E6%99%BA%E8%83%BD%E6%8A%80%E6%9C%AF%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%AE%AD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130043-智能技术工程实训
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130044-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130044-人工智能应用实践
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130046-%E6%99%BA%E8%83%BD%E7%A7%91%E5%AD%A6%E4%B8%93%E4%B8%9A%E5%AE%9E%E4%B9%A0/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130046-智能科学专业实习
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130047-%E4%B8%93%E4%B8%9A%E5%AF%BC%E8%AE%BA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130047-专业导论
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130067-%E6%99%BA%E8%83%BD%E7%A7%91%E5%AD%A6%E4%B8%93%E4%B8%9A%E5%AF%BC%E8%AE%BA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130067-智能科学专业导论
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130091-%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130091-汇编语言程序设计
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130101-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130101-数据结构
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130121-%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130121-编译原理
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130132-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130132-数据库系统原理
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    130156-国产数据库系统管理
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    130156-国产数据库系统管理
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      课程简介
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      网课推荐
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      课程资料
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      收录的课程评价
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      自由评价区
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130163-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130163-软件工程导论
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130241-%E5%A4%9A%E5%AA%92%E4%BD%93%E6%8A%80%E6%9C%AF/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130241-多媒体技术
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130251-UML%E5%BB%BA%E6%A8%A1%E6%8A%80%E6%9C%AF/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130251-UML建模技术
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130271-LINUX%E7%B3%BB%E7%BB%9F/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130271-LINUX系统
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130281-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130281-人工智能
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130292-%E5%8C%BA%E5%9D%97%E9%93%BE%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%BA%94%E7%94%A8/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130292-区块链技术与应用
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130461-.NET%E6%8A%80%E6%9C%AF/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130461-.NET技术
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130505-%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%89%8D%E6%B2%BF%E6%8A%80%E6%9C%AF/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130505-计算机前沿技术
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130632-%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130632-嵌入式系统
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130691-%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130691-离散数学
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130701-JAVA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130701-JAVA程序设计
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130721-%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E5%8E%9F%E7%90%86%E4%B8%8E%E5%BA%94%E7%94%A8/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130721-网络安全原理与应用
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130771-%E5%BA%94%E7%94%A8%E5%AF%86%E7%A0%81%E5%AD%A6/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130771-应用密码学
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130791-%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%B3%95%E5%BE%8B%E6%B3%95%E8%A7%84/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130791-信息安全法律法规
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130801-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%97%85%E6%AF%92/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130801-计算机病毒
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130822-%E4%BF%A1%E6%81%AF%E9%9A%90%E8%97%8F%E4%B8%8E%E6%95%B0%E5%AD%97%E6%B0%B4%E5%8D%B0/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130822-信息隐藏与数字水印
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../130881-%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8%E6%8A%80%E6%9C%AF/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    130881-系统安全技术
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../131061-TCP-IP%E5%8D%8F%E8%AE%AE/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    131061-TCP-IP协议
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../131101-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    131101-计算机网络程序设计
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../131211-%E5%B7%A5%E7%A8%8B%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    131211-工程项目管理
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../131222-%E4%BC%81%E4%B8%9AJAVA%E6%8A%80%E6%9C%AF/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    131222-企业JAVA技术
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../131232-%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    131232-算法分析与设计
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../131271-%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    131271-软件需求分析
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../131361-%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    131361-计算机图像处理
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../131431-%E7%89%A9%E8%81%94%E7%BD%91%E5%92%8C%E7%A7%BB%E5%8A%A8%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    131431-物联网和移动应用开发
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../131491-IT%E6%96%87%E7%8C%AE%E6%A3%80%E7%B4%A2%E4%B8%8E%E5%86%99%E4%BD%9C/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    131491-IT文献检索与写作
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../131521-%E4%B8%93%E4%B8%9A%E8%8B%B1%E8%AF%AD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    131521-专业英语
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../131551-%E5%88%9B%E6%96%B0%E6%80%9D%E7%BB%B4%E4%B8%8E%E6%96%B9%E6%B3%95/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    131551-创新思维与方法
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../131591-%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E4%B8%8E%E5%BA%A6%E9%87%8F/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    131591-软件测试与度量
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../131671-%E7%AE%97%E6%B3%95%E4%B8%8E%E5%AE%9E%E8%B7%B5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    131671-算法与实践
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../131691-%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    131691-计算机视觉
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../131701-%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    131701-自然语言处理
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../131721-%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    131721-信息安全数学基础
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../131731-%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    131731-软件架构设计
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../131811-%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    131811-程序设计基础
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../131821-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    131821-计算机网络
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../131831-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E4%B8%8E%E7%BB%93%E6%9E%84/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    131831-计算机组成与结构
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../131841-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    131841-操作系统原理
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../138001-%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    138001-数据科学技术
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../139011-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    139011-数据结构课程设计
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../139032-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    139032-软件工程课程设计
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../139062-%E6%95%B0%E6%8D%AE%E5%BA%93%E5%BA%94%E7%94%A8%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    139062-数据库应用课程设计
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../139091-%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%BA%94%E7%94%A8%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    139091-计算机应用课程设计
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../139102-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    139102-计算机网络课程设计
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../139121-%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    139121-毕业设计
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../139142-%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    139142-程序设计基础课程设计
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../139151-%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    139151-系统安全课程设计
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../139881-%E7%BD%91%E7%BB%9C%E6%94%BB%E9%98%B2%E5%AE%9E%E8%B7%B5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    139881-网络攻防实践
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../139931-%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    139931-软件测试课程设计
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../139951-%E8%AE%A4%E8%AF%86%E5%AE%9E%E4%B9%A0/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    139951-认识实习
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      课程简介
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      网课推荐
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      课程资料
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      收录的课程评价
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      自由评价区
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="130156-"><strong>130156-国产数据库系统管理</strong></h1>
+<h2 id="_1"><strong>课程简介</strong></h2>
+<p>🌟 授课教师： </p>
+<ul>
+<li>开课学期：  </li>
+<li>考核方式：  </li>
+<li>分数构成：  </li>
+<li>难度系数：  </li>
+</ul>
+<h2 id="_2"><strong>网课推荐</strong></h2>
+<h2 id="_3"><strong>课程资料</strong></h2>
+<h2 id="_4"><strong>收录的课程评价</strong></h2>
+<h2 id="_5"><strong>自由评价区</strong></h2>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  <!-- <h2 id="__comments">课程评价</h2> -->
+  Tips: 下方评论区并非完全匿名(评论使用的是你的Github)<br/>
+  😁优质评论将会被列入收录的课程评价中，并匿名展示<br/>
+  🙌在评价课程时切勿对老师人身攻击，请尽量客观理性进行评价，不文明评价将会被删除<br/>
+  附： 可选用的评价模版 
+  <blockquote>
+  授课老师：XXX<br/>
+  上课学期：[如2024a]<br/>
+  期末成绩：[分享你的成绩有助于大家进行全面的判断，如介意可不必]<br/>
+  总体概要：[如先修课程及知识、课程难度、签到方式、教材使用情况]<br/>
+  教师评价：[推荐的老师，老师授课风格的评价，切勿人身攻击等不文明行为]<br/>
+  课程听感：[整体课程难度、课程节奏等]<br/>
+  作业安排：[作业完成难度、ddl设置、有无大作业、小组作业、Pre、翻转课堂、刷网课]<br/>
+  关于考试：[开卷\闭卷、随堂\期末周、有无题库、考核难度]<br/>
+</blockquote>
+🥳PS：评论区也可以分享资料，请附上资料的在线地址或网盘地址
+  <!-- Insert generated snippet here -->
+  <script src="https://giscus.app/client.js"
+  data-repo="jiachengdai/JCdocs.github.io"
+  data-repo-id="R_kgDOM7aO0g"
+  data-category="Announcements"
+  data-category-id="DIC_kwDOM7aO0s4CjD3F"
+  data-mapping="pathname"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="bottom"
+  data-theme="preferred_color_scheme"
+  data-lang="zh-CN"
+  crossorigin="anonymous"
+  async>
+</script>
+  <!-- Synchronize Giscus theme with palette -->
+  <script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    /* Set palette on initial load */
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+      var theme = palette.color.scheme === "slate" ? "dark" : "light"
+      giscus.setAttribute("data-theme", theme) 
+    }
+
+    /* Register event handlers after documented loaded */
+    document.addEventListener("DOMContentLoaded", function() {
+      var ref = document.querySelector("[data-md-component=palette]")
+      ref.addEventListener("change", function() {
+        var palette = __md_get("__palette")
+        if (palette && typeof palette.color === "object") {
+          var theme = palette.color.scheme === "slate" ? "dark" : "light"
+
+          /* Instruct Giscus to change theme */
+          var frame = document.querySelector(".giscus-frame")
+          frame.contentWindow.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app"
+          )
+        }
+      })
+    })
+  </script>
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+    
+      <script src="../../assets/javascripts/bundle.d6f25eb3.min.js"></script>
+      
+        <script src="../../javascripts/katex.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js"></script>
+      
+    
+    <script src="../../assets/javascripts/custom.9458f965.min.js"></script>
+  
+  </body>
+</html>

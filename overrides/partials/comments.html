@@ -1,0 +1,63 @@
+{% if page.meta.comments %}
+  <!-- <h2 id="__comments">课程评价</h2> -->
+  Tips: 下方评论区并非完全匿名(评论使用的是你的Github)<br/>
+  😁优质评论将会被列入收录的课程评价中，并匿名展示<br/>
+  🙌在评价课程时切勿对老师人身攻击，请尽量客观理性进行评价，不文明评价将会被删除<br/>
+  附： 可选用的评价模版 
+  <blockquote>
+  授课老师：XXX<br/>
+  上课学期：[如2024a]<br/>
+  期末成绩：[分享你的成绩有助于大家进行全面的判断，如介意可不必]<br/>
+  总体概要：[如先修课程及知识、课程难度、签到方式、教材使用情况]<br/>
+  教师评价：[推荐的老师，老师授课风格的评价，切勿人身攻击等不文明行为]<br/>
+  课程听感：[整体课程难度、课程节奏等]<br/>
+  作业安排：[作业完成难度、ddl设置、有无大作业、小组作业、Pre、翻转课堂、刷网课]<br/>
+  关于考试：[开卷\闭卷、随堂\期末周、有无题库、考核难度]<br/>
+</blockquote>
+🥳PS：评论区也可以分享资料，请附上资料的在线地址或网盘地址
+  <!-- Insert generated snippet here -->
+  <script src="https://giscus.app/client.js"
+  data-repo="jiachengdai/JCdocs.github.io"
+  data-repo-id="R_kgDOM7aO0g"
+  data-category="Announcements"
+  data-category-id="DIC_kwDOM7aO0s4CjD3F"
+  data-mapping="pathname"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="bottom"
+  data-theme="preferred_color_scheme"
+  data-lang="zh-CN"
+  crossorigin="anonymous"
+  async>
+</script>
+  <!-- Synchronize Giscus theme with palette -->
+  <script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    /* Set palette on initial load */
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+      var theme = palette.color.scheme === "slate" ? "dark" : "light"
+      giscus.setAttribute("data-theme", theme) 
+    }
+
+    /* Register event handlers after documented loaded */
+    document.addEventListener("DOMContentLoaded", function() {
+      var ref = document.querySelector("[data-md-component=palette]")
+      ref.addEventListener("change", function() {
+        var palette = __md_get("__palette")
+        if (palette && typeof palette.color === "object") {
+          var theme = palette.color.scheme === "slate" ? "dark" : "light"
+
+          /* Instruct Giscus to change theme */
+          var frame = document.querySelector(".giscus-frame")
+          frame.contentWindow.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app"
+          )
+        }
+      })
+    })
+  </script>
+{% endif %}
